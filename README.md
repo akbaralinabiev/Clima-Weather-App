@@ -5,11 +5,10 @@
 
 ## Overview
 
-Clima Weather App is a Flutter-based mobile application that provides weather information for various locations. It utilizes open APIs to fetch real-time weather data and offers a user-friendly interface for users to check the current weather conditions.
+Clima Weather App is a Flutter-based mobile application that provides weather information for your location. It utilizes open APIs to fetch real-time weather data and offers a user-friendly interface for users to check the current weather conditions.
 
 ## Features
 
-- **Real-time Weather Data:** Get up-to-date weather information for different cities.
 - **Location-based Weather:** Automatically fetch weather data based on the user's location.
 - **Detailed Weather Information:** View details like temperature, condition, and more.
 - **User-friendly Interface:** Clean and intuitive design for a seamless user experience.
@@ -18,7 +17,15 @@ Clima Weather App is a Flutter-based mobile application that provides weather in
 
 To run the Clima Weather App locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/akbaralinabiev/Clima-Weather-App.git
+# Clone the repository
+git clone https://github.com/akbaralinabiev/Clima-Weather-App.git
+
+# Navigate to the project directory
+cd Clima-App
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
 
